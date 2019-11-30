@@ -1,0 +1,13 @@
+{
+    "name": "Microsoft Docs Translater",
+    "short_name": "MSDocsTranslter",
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "description": "Microsoft Docsのページの日本語と英語を切り替えます。",
+    "content_scripts": [
+        {
+            "matches": ["https://docs.microsoft.com/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
